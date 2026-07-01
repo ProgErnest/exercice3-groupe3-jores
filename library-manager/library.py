@@ -24,3 +24,10 @@ class Library:
         for book in self.books:
             if not book.is_available():
                 print(book.informations())
+
+    def find_book_by_title(self, title):
+        for book in self.books:
+            if book.get_title() == title:
+                return book
+        return None
+    
