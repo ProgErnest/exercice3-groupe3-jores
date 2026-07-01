@@ -8,14 +8,20 @@ class Library:
 
     def add_book(self, book):
         self.books.append(book)
+        print(f"The book {book.title}-{book.author}({book.year}) was added succesfally\n" 
+              + "\nThank you for your fidelity\n\n\nCordially, Jores WABO\n\n")
 
     def remove_book(self, book):
         self.books.remove(book)
 
     def list_books(self):
-        for book in self.books:
-            print(book.informations())
-    
+        if self.books:
+            print("The books in the library are : ")
+            for book in self.books:
+                print(f"{book.informations()}\n\n")
+        else:
+            print("No books in the library.")
+
     def list_availables_books(self):
         for book in self.books:
             if book.is_available():
