@@ -1,0 +1,72 @@
+{
+    "0": {
+        "brands": "Evian",
+        "categories_tags": [
+            "en:beverages-and-beverages-preparations",
+            "en:beverages",
+            "en:waters",
+            "en:non-alcoholic-beverages",
+            "en:spring-waters",
+            "en:mineral-waters",
+            "en:unsweetened-beverages",
+            "en:natural-mineral-waters"
+        ],
+        "code": "3068320055008",
+        "image_url": "https://images.openfoodfacts.org/images/products/306/832/005/5008/front_en.179.400.jpg",
+        "ingredients_text": "ca2  80 hco5 360 mg* 26 so 14 ci 10 si0, 15 k  nat 6,5 no 3,8 f 0,06 f\u00b0 algua /suma",
+        "product_name": "Evian 500ml"
+    },
+    "1": {
+        "brands": "Coca-Cola",
+        "categories_tags": [
+            "en:beverages-and-beverages-preparations",
+            "en:beverages",
+            "en:carbonated-drinks",
+            "en:sodas",
+            "en:colas",
+            "pt:bebidas cafe\u00edna"
+        ],
+        "code": "5449000000996",
+        "image_url": "https://images.openfoodfacts.org/images/products/544/900/000/0996/front_en.1035.400.jpg",
+        "ingredients_text": "carbonated water, sugar, colour (caramel e150d), acid (phosphoric acid), natural flavourings, caffeine flavouring,",
+        "product_name": "coca-cola"
+    },
+    "2": {
+        "brands": "Nutella, Ferrero, Yum yum",
+        "categories_tags": [
+            "en:breakfasts",
+            "en:spreads",
+            "en:sweet-spreads",
+            "en:confectionary-based-spreads",
+            "en:Petit-d\u00e9jeuners",
+            "en:Produits \u00e0 tartiner",
+            "en:Produits \u00e0 tartiner sucr\u00e9s",
+            "en:P\u00e2tes \u00e0 tartiner"
+        ],
+        "code": "3017620422003",
+        "image_url": "https://images.openfoodfacts.org/images/products/301/762/042/2003/front_en.879.400.jpg",
+        "ingredients_text": "Sucre, huile de palme, NOISETTES 13%, cacao maigre 7,4%, LAIT \u00e9cr\u00e9m\u00e9 en poudre 6,6%, LACTOSERUM en poudre, \u00e9mulsifiants: l\u00e9cithines [SOJA), vanilline. Sans gluten.",
+        "product_name": "Nutella"
+    },
+    "3": {
+        "brands": "Barilla",
+        "categories_tags": [
+            "en:plant-based-foods-and-beverages",
+            "en:plant-based-foods",
+            "en:fruits-and-vegetables-based-foods",
+            "en:vegetable-based-foods-and-beverages",
+            "en:condiments",
+            "en:vegetables-based-foods",
+            "en:tomatoes-and-their-products",
+            "en:sauces",
+            "en:meal-sauces",
+            "en:pasta-sauces",
+            "en:tomato-sauces",
+            "en:tomato-sauces-with-basil"
+        ],
+        "code": "8076809513739",
+        "image_url": "https://images.openfoodfacts.org/images/products/807/680/951/3739/front_en.88.400.jpg",
+        "ingredients_text": "Knuste tomater 72%, tomatkonsentrat 14%, l\u00f8k, solsikkeolje, basilikum 2%, sukker, salt, naturlig aroma,",
+        "product_name": "Tomate y Badilico"
+    }
+}
