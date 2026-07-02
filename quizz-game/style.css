@@ -1,0 +1,136 @@
+body{
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #f7efe6 0%, #f0c27b 100%);
+    margin: 0;
+    padding: 24px;
+    color: #2f2a24;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    margin: 0 0 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: #2f2a24;
+    text-align: center;
+}
+
+.container{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 24px 28px;
+    border-radius: 18px;
+    width: min(600px, 100%);
+    margin: 0 auto;
+    font-size: 1.1em;
+    font-weight: 600;
+    border: 1px solid #e8dfd3;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+#quizz-container ul{
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+    margin-top: 16px;
+}
+
+#quizz-container ul li{
+    padding: 0;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.choice{
+    padding: 14px 16px;
+    border: 1px solid #e2d8ca;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: #fcfaf7;
+    transition: all 0.2s ease;
+}
+
+.choice:hover{
+    background-color: #f3e8d8;
+    border-color: #d7b67a;
+    transform: translateY(-1px);
+}
+
+.start,
+#btn-next{
+    border: none;
+    border-radius: 999px;
+    padding: 10px 18px;
+    background-color: #2f2a24;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.start:hover,
+#btn-next:hover{
+    background-color: #5b4635;
+    transform: translateY(-1px);
+}
+
+#score-container{
+    text-align: center;
+    margin-top: 16px;
+    padding: 16px 20px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: min(380px, 100%);
+}
+
+#score-container p{
+    margin: 0 0 12px;
+    font-weight: 600;
+}
+
+#decision{
+    margin-top: 12px;
+    min-height: 24px;
+}
+
+.success,
+.fail{
+    display: inline-block;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+.success{
+    background-color: #eef8f0;
+    color: #267a3b;
+    border: 1px solid #cdebd5;
+}
+
+.fail{
+    background-color: #fff4f3;
+    color: #b23a2d;
+    border: 1px solid #f1c9c6;
+}
+
+.question p{
+    margin-bottom: 12px;
+    font-size: 1.05rem;
+}
+

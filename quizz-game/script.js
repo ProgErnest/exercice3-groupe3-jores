@@ -79,6 +79,9 @@ button.addEventListener("click", function(event) {
     score= 0;
     //Display of the first question by default
     currentIndex=0;
+    scorecontainer.style.display="none";
+    decision.style.display="none";
+    document.getElementById("welcome-container").style.display = "none";
     display(currentIndex);
     
     quizz.style.display = "block";
@@ -87,15 +90,32 @@ button.addEventListener("click", function(event) {
     
 });})
 
+//displaying a question with its choices and a button to go to the next question
 function display(q) {
     quizz.innerHTML = `   
         <div class="question" style="">
             <p>Question ${q+1}:${qwizzs[q].question}</p>
             <ul>
-                <li><input type="radio" name="q${q+1}" value="0"> A. ${qwizzs[q].choices[0]}</li>
-                <li><input type="radio" name="q${q+1}" value="1"> B. ${qwizzs[q].choices[1]}</li>
-                <li><input type="radio" name="q${q+1}" value="2"> C. ${qwizzs[q].choices[2]}</li>
-                <li><input type="radio" name="q${q+1}" value="3"> D. ${qwizzs[q].choices[3]}</li>
+                <li>
+                    <label class="choice">
+                        <input type="radio" name="q${q+1}" value="0"> A. ${qwizzs[q].choices[0]}
+                    </label>
+                </li>
+                <li>
+                    <label class="choice">
+                        <input type="radio" name="q${q+1}" value="1"> B. ${qwizzs[q].choices[1]}
+                    </label>
+                </li>
+                <li>
+                    <label class="choice">
+                        <input type="radio" name="q${q+1}" value="2"> C. ${qwizzs[q].choices[2]}
+                    </label>
+                </li>
+                <li>
+                    <label class="choice">
+                        <input type="radio" name="q${q+1}" value="3"> D. ${qwizzs[q].choices[3]}
+                    </label>
+                </li>
             </ul>
             <button id="btn-next">Next</button>
         </div>`;
@@ -116,6 +136,7 @@ function display(q) {
     });
 }
 
+//verification of the answer and display of the result
 function checkResult(q){
     const choice = document.querySelector(`input[name="q${q+1}"]:checked`).value;
     console.log(choice);

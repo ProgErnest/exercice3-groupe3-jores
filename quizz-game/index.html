@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <h1>Jores Quizz game</h1>
-   <p>Welcome to our new Quizz Game</p> 
-   <button id="btn-start" class="start">Start here</button>
-   <div id="quizz-container" style="display: none;">
-    <p>Question 1: What is the capital of Cameroun?</p>
-    <ul>
-        <li><input type="radio" name="q1" value="a"> A. Douala</li>
-        <li><input type="radio" name="q1" value="b"> B. Garoua</li>
-        <li><input type="radio" name="q1" value="c"> C. Yaounde</li>
-        <li><input type="radio" name="q1" value="d"> D. Bafoussam</li>
-    </ul>
-    <!-- <button id="btn-next">Next</button> -->
+   <div id="welcome-container" class="container" style="display: block;">
+        <p>Welcome to our new Quizz Game</p> 
+        <button id="btn-start" class="start">Start here</button>
+   </div>
+   <div id="quizz-container" class="container" style="display: none;">
+        <p>Question 1: What is the capital of Cameroun?</p>
+        <ul>
+            <li><input type="radio" name="q1" value="a"> A. Douala</li>
+            <li><input type="radio" name="q1" value="b"> B. Garoua</li>
+            <li><input type="radio" name="q1" value="c"> C. Yaounde</li>
+            <li><input type="radio" name="q1" value="d"> D. Bafoussam</li>
+        </ul>
+        <!-- <button id="btn-next">Next</button> -->
    </div>
    <div id="decision" ></div>
-   <div id="score-container">
-    <p>Your score is: <span id="score">0</span></p>
-    <button id="btn-restart" class="start">Restart</button>
+   <div id="score-container"  style="display: none;">
+        <p>Your score is: <span id="score">0</span></p>
+        <button id="btn-restart" class="start">Restart</button>
    </div>
    <script src="script.js"></script>
 
