@@ -39,10 +39,19 @@ class Book:
         
     def borrow(self):
         self.available = False
-        print(f"The book {self.title}-{self.author}({self.year}) was borrowed succesfally\n --\n Thank you for your fidelity\n Cordially, Jores WABO")
+        print(f"The book {self.title}-{self.author}({self.year}) was borrowed succesfully\n --\n Thank you for your fidelity\n Cordially, Jores WABO")
         
-    def render(self):
+    def return_book(self):
         self.available =True
-        print(f"The book {self.title}-{self.author}({self.year}) was returned succesfally\n --\n Thank you for your fidelity\n Cordially, Jores WABO")
+        print(f"The book {self.title}-{self.author}({self.year}) was returned succesfully\n --\n Thank you for your fidelity\n Cordially, Jores WABO")
     def informations(self):
         return f"Title: {self.title}\nAuthor: {self.author}\nGenre: {self.genre}\nYear: {self.year}\nAvailable: {'Yes' if self.available else 'No'}"
+
+
+if __name__== "__main__":
+    book1 = Book("Jores Life", "Jores WABO", "AUto-biography", 2026)
+    print(book1.informations())
+    book1.borrow()
+    print(book1.informations())
+    book1.return_book()
+    print(book1.informations())

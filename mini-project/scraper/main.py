@@ -2,7 +2,7 @@ from openfoodfacts import API,Environment
 import json
 import pathlib
 BASE_URL = pathlib.Path(__file__).parent.parent
-JSON_DESTINATION = BASE_URL / "web" / "data" / "product.json"
+JSON_DESTINATION = BASE_URL / "web" / "data" / "data.json"
 api = API(
     user_agent="Foods",
     environment=Environment.org

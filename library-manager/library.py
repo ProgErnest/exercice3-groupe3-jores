@@ -1,3 +1,4 @@
+import book
 
 
 #This file explain the definition of the Library class and its methods.
@@ -36,4 +37,11 @@ class Library:
             if book.get_title() == title:
                 return book
         return None
-    
+
+if __name__ == "__main__":
+    library = Library("Jores Library")
+    book1 = book.Book("Jores Life", "Jores WABO", "AUto-biography", 2026)
+    book2 = book.Book("Jores Life2", "Jores WABO", "AUto-biography", 2027)
+    library.add_book(book1)
+    library.add_book(book2)
+    library.list_books()

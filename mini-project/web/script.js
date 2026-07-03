@@ -1,4 +1,4 @@
-fetch("data/product.json")
+fetch("data/data.json")
     .then(response => response.json())
     .then(data => {
         const productList = document.querySelector("#product-list");
