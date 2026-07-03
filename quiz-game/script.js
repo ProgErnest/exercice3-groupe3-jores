@@ -117,7 +117,7 @@ function display(q) {
                     </label>
                 </li>
             </ul>
-            <button id="btn-next">Next</button>
+            <button id="btn-next" class="btn">Next</button>
         </div>`;
     btnNext = document.getElementById("btn-next");
     btnNext.addEventListener("click", function(e){

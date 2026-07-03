@@ -1,5 +1,145 @@
 {
     "0": {
+        "brands": "Nutella",
+        "categories_tags": [
+            "en:breakfasts",
+            "en:spreads",
+            "en:sweet-spreads",
+            "fr:pates-a-tartiner",
+            "en:hazelnut-spreads",
+            "en:chocolate-spreads",
+            "en:cocoa-and-hazelnuts-spreads",
+            "en:P\u00e2tes \u00e0 tartiner"
+        ],
+        "code": "3017620422003",
+        "image_url": "https://images.openfoodfacts.net/images/products/301/762/042/2003/front_en.864.400.jpg",
+        "ingredients_text": "Sucre, huile de palme, NOISETTES 13%, cacao maigre 7,4%, LAIT \u00e9cr\u00e9m\u00e9 en poudre 6,6%, LACTOSERUM en poudre, \u00e9mulsifiants: l\u00e9cithines [SOJA), vanilline. Sans gluten.",
+        "product_name": "Nutella"
+    },
+    "1": null,
+    "2": {
+        "brands": "Bonne Maman",
+        "categories_tags": [
+            "en:plant-based-foods-and-beverages",
+            "en:plant-based-foods",
+            "en:fruit-based-foods-and-beverages",
+            "en:fruits-and-vegetables-based-foods",
+            "en:breakfasts",
+            "en:fruit-based-foods",
+            "en:spreads",
+            "en:plant-based-spreads",
+            "en:sweet-spreads",
+            "en:fruit-and-vegetable-preserves",
+            "en:jams",
+            "en:berry-jams",
+            "en:strawberry-jams"
+        ],
+        "code": "3608580713883",
+        "product_name": "Bonne Maman Strawberry Jam 370G"
+    },
+    "3": null,
+    "4": null,
+    "5": null,
+    "6": {
+        "brands": "Lindt",
+        "categories_tags": [
+            "en:fermented-foods",
+            "en:snacks",
+            "en:sweet-snacks",
+            "en:cocoa-and-its-products",
+            "en:chocolates",
+            "en:dark-chocolates",
+            "en:dark-chocolate-bar",
+            "en:dark-chocolate-bar-with-more-than-70-cocoa"
+        ],
+        "code": "3046920022651",
+        "image_url": "https://images.openfoodfacts.net/images/products/304/692/002/2651/front_en.159.400.jpg",
+        "ingredients_text": "P\u00e2te de cacao, sucre, beurre de cacao, vanille.\r\n\r\nPeut contenir des fruits \u00e0 coque, du lait, du soja et des graines de s\u00e9same.",
+        "product_name": "Excellence 70% cacao noir intense"
+    },
+    "7": {
+        "brands": "Prince",
+        "categories_tags": [
+            "en:snacks",
+            "en:breakfasts",
+            "en:sweet-snacks",
+            "en:biscuits-and-cakes",
+            "en:biscuits-and-crackers",
+            "en:biscuits",
+            "en:filled-biscuits",
+            "en:sandwich-biscuits"
+        ],
+        "code": "7622210449283",
+        "image_url": "https://images.openfoodfacts.net/images/products/762/221/044/9283/front_en.605.400.jpg",
+        "ingredients_text": "C\u00e9r\u00e9ale 50 % (Farine de bl\u00e9 34,8 %, farine de bl\u00e9 complet 15,2 %), sucre, huiles v\u00e9g\u00e9tales (palme, colza), cacao maigre en poudre 4,5 %, sirop de glucose, amidon de bl\u00e9, poudres \u00e0 lever (carbonates d'ammonium, carbonates de sodium), \u00e9mulsifiant (l\u00e9cithines de soja), sel, lait \u00e9cr\u00e9m\u00e9 en poudre, perm\u00e9at de lactos\u00e9rum (de lait), ar\u00f4mes. Peut contenir \u0153uf.",
+        "product_name": "Prince Go\u00fbt Chocolat au bl\u00e9 complet"
+    },
+    "8": {
+        "brands": "LU, Mondel\u0113z",
+        "categories_tags": [
+            "en:snacks",
+            "en:sweet-snacks",
+            "en:biscuits-and-cakes",
+            "en:biscuits-and-crackers",
+            "en:biscuits",
+            "en:chocolate-biscuits",
+            "en:filled-biscuits"
+        ],
+        "code": "7622210204424",
+        "image_url": "https://images.openfoodfacts.net/images/products/762/221/020/4424/front_en.68.400.jpg",
+        "ingredients_text": "Harina de _trigo_ 49%, az\u00facar, grasa de palma, aceite de nabina, cacao magro en polvo 4.5%, jarabe de glucosa, almid\u00f3n de _trigo_, gasificantes (carbonatos de amonio, carbonatos de sodio), emulgente (lecitinas de _soja_), sal, _leche_ desnatada en polvo, permeato de suero (_leche_), aroma.",
+        "product_name": "Pr\u00edncipe crema de chocolate"
+    },
+    "9": {
+        "brands": "Snickers",
+        "categories_tags": [
+            "en:snacks",
+            "en:sweet-snacks",
+            "en:cocoa-and-its-products",
+            "en:confectioneries",
+            "en:chocolate-candies",
+            "en:bars",
+            "en:candy-chocolate-bars"
+        ],
+        "code": "5000159461122",
+        "image_url": "https://images.openfoodfacts.net/images/products/500/015/946/1122/front_en.311.400.jpg",
+        "ingredients_text": "Milk Chocolate (sugar, cocoa butter, chocolate, skim milk, lactose, milkfat, soy lecithin), peanuts, corn syrup, sugar, palm oil, skim milk, lactose, salt, egg whites, artificial flavor.",
+        "product_name": "Snickers"
+    },
+    "10": {
+        "brands": "Balisto",
+        "categories_tags": [
+            "en:snacks",
+            "en:sweet-snacks",
+            "en:cocoa-and-its-products",
+            "en:confectioneries",
+            "en:chocolate-candies",
+            "en:bars",
+            "en:cereal-bars",
+            "en:candy-chocolate-bars"
+        ],
+        "code": "5000159418546",
+        "image_url": "https://images.openfoodfacts.net/images/products/500/015/941/8546/front_en.51.400.jpg",
+        "ingredients_text": "Zucker, ganze Haferflocken (10 %), Sonnenblumen\u00f6l, Magermilchpulver, Rosinen, Weizenvollkornmehl (6.7%), Weizenmehl, Kakaobutter, Kakaomasse, Sheafett, Molkepermeat (Milch), Gerstenvollkornmehl (2.6%), Haseln\u00fcsse, Butterreinfett (Milch), Palmfett, Emulgatoren (Sojalecithin, Mono - und Diglyceride von Speisefetts\u00e4uren, Natriumstearoyl-2-lactylat), Magermilchjoghurtpulver, Salz, Backtriebmittel (Natriumcarbonate), Milchzucker (Milch), Kokosnuss\u00f6l. (Kann enthalten: Mandeln).",
+        "product_name": "Balisto muesli"
+    },
+    "11": null,
+    "12": {
+        "brands": "Coca-Cola",
+        "categories_tags": [
+            "en:beverages-and-beverages-preparations",
+            "en:beverages",
+            "en:carbonated-drinks",
+            "en:sodas",
+            "en:colas",
+            "pt:bebidas cafe\u00edna"
+        ],
+        "code": "5449000000996",
+        "image_url": "https://images.openfoodfacts.net/images/products/544/900/000/0996/front_en.1035.400.jpg",
+        "ingredients_text": "carbonated water, sugar, colour (caramel e150d), acid (phosphoric acid), natural flavourings, caffeine flavouring,",
+        "product_name": "Coca-Cola"
+    },
+    "13": {
         "brands": "Evian",
         "categories_tags": [
             "en:beverages-and-beverages-preparations",
@@ -12,43 +152,16 @@
             "en:natural-mineral-waters"
         ],
         "code": "3068320055008",
-        "image_url": "https://images.openfoodfacts.org/images/products/306/832/005/5008/front_en.179.400.jpg",
+        "image_url": "https://images.openfoodfacts.net/images/products/306/832/005/5008/front_en.179.400.jpg",
         "ingredients_text": "ca2  80 hco5 360 mg* 26 so 14 ci 10 si0, 15 k  nat 6,5 no 3,8 f 0,06 f\u00b0 algua /suma",
         "product_name": "Evian 500ml"
     },
-    "1": {
-        "brands": "Coca-Cola",
-        "categories_tags": [
-            "en:beverages-and-beverages-preparations",
-            "en:beverages",
-            "en:carbonated-drinks",
-            "en:sodas",
-            "en:colas",
-            "pt:bebidas cafe\u00edna"
-        ],
-        "code": "5449000000996",
-        "image_url": "https://images.openfoodfacts.org/images/products/544/900/000/0996/front_en.1035.400.jpg",
-        "ingredients_text": "carbonated water, sugar, colour (caramel e150d), acid (phosphoric acid), natural flavourings, caffeine flavouring,",
-        "product_name": "coca-cola"
-    },
-    "2": {
-        "brands": "Nutella, Ferrero, Yum yum",
-        "categories_tags": [
-            "en:breakfasts",
-            "en:spreads",
-            "en:sweet-spreads",
-            "en:confectionary-based-spreads",
-            "en:Petit-d\u00e9jeuners",
-            "en:Produits \u00e0 tartiner",
-            "en:Produits \u00e0 tartiner sucr\u00e9s",
-            "en:P\u00e2tes \u00e0 tartiner"
-        ],
-        "code": "3017620422003",
-        "image_url": "https://images.openfoodfacts.org/images/products/301/762/042/2003/front_en.879.400.jpg",
-        "ingredients_text": "Sucre, huile de palme, NOISETTES 13%, cacao maigre 7,4%, LAIT \u00e9cr\u00e9m\u00e9 en poudre 6,6%, LACTOSERUM en poudre, \u00e9mulsifiants: l\u00e9cithines [SOJA), vanilline. Sans gluten.",
-        "product_name": "Nutella"
-    },
-    "3": {
+    "14": null,
+    "15": null,
+    "16": null,
+    "17": null,
+    "18": null,
+    "19": {
         "brands": "Barilla",
         "categories_tags": [
             "en:plant-based-foods-and-beverages",
@@ -65,8 +178,83 @@
             "en:tomato-sauces-with-basil"
         ],
         "code": "8076809513739",
-        "image_url": "https://images.openfoodfacts.org/images/products/807/680/951/3739/front_en.88.400.jpg",
-        "ingredients_text": "Knuste tomater 72%, tomatkonsentrat 14%, l\u00f8k, solsikkeolje, basilikum 2%, sukker, salt, naturlig aroma,",
+        "image_url": "https://images.openfoodfacts.net/images/products/807/680/951/3739/front_en.88.400.jpg",
+        "ingredients_text": "Pulpa de tomate 72%, concentrado de tomate 14%, cebolla, aceite de girasol, albahaca 2%, az\u00facar, sal, aroma natural.",
         "product_name": "Tomate y Badilico"
-    }
+    },
+    "20": null,
+    "21": null,
+    "22": {
+        "brands": "Pringles",
+        "categories_tags": [
+            "en:plant-based-foods-and-beverages",
+            "en:plant-based-foods",
+            "en:snacks",
+            "en:cereals-and-potatoes",
+            "en:salty-snacks",
+            "en:appetizers",
+            "en:chips-and-fries",
+            "en:potatoes-and-their-products",
+            "en:crisps",
+            "en:salty-snacks-made-from-potato",
+            "en:stacked-extruded-potato-crisps"
+        ],
+        "code": "5053990138722",
+        "image_url": "https://images.openfoodfacts.net/images/products/505/399/013/8722/front_en.233.400.jpg",
+        "ingredients_text": "Kartoffelp\u00fcreepulver, Sonnenblumen\u00f6l, _Weizenmehl_, Maismehl, Reismehl, Maltodextrin, Emulgator (E471), Salz, Farbstoff (Annatto, Norbixin)",
+        "product_name": "Pringles original"
+    },
+    "23": null,
+    "24": null,
+    "25": null,
+    "26": null,
+    "27": null,
+    "28": null,
+    "29": null,
+    "30": {
+        "brands": "Danone",
+        "categories_tags": [
+            "en:dairies",
+            "en:fermented-foods",
+            "en:fermented-milk-products",
+            "en:desserts",
+            "en:dairy-desserts",
+            "en:fermented-dairy-desserts",
+            "en:yogurts",
+            "en:plain-fermented-dairy-desserts",
+            "en:plain-yogurts"
+        ],
+        "code": "3033490004552",
+        "image_url": "https://images.openfoodfacts.net/images/products/303/349/000/4552/front_fr.4.400.jpg",
+        "ingredients_text": "_lait_ partiellement \u00e9cr\u00e9m\u00e9 \u00e0 1% M.G. (94,7%), _lait_ \u00e9cr\u00e9m\u00e9 concentr\u00e9 ou en poudre (5,2%), ferments lactiques (_lait_).",
+        "product_name": "Le Nature - offre d\u00e9couverte"
+    },
+    "31": null,
+    "32": {
+        "brands": "Nestl\u00e9, Chocapic",
+        "categories_tags": [
+            "en:plant-based-foods-and-beverages",
+            "en:plant-based-foods",
+            "en:breakfasts",
+            "en:cereals-and-potatoes",
+            "en:cereals-and-their-products",
+            "en:breakfast-cereals",
+            "en:chocolate-cereals",
+            "en:breakfast-cereals-fortified-with-vitamins-and-chemical-elements",
+            "en:extruded-cereals",
+            "en:breakfast-cereals-rich-in-fibre",
+            "en:chocolate-wheat-shells",
+            "en:unfilled-breakfast-chocolate-cereals-fortified-with-vitamins-and-chemical-elements"
+        ],
+        "code": "7613034626844",
+        "image_url": "https://images.openfoodfacts.net/images/products/761/303/462/6844/front_fr.355.400.jpg",
+        "ingredients_text": "Bl\u00e9 complet 35,0%, chocolat en poudre 22,5% (sucre, cacao en poudre), farine de bl\u00e9 17,0%, semoule de ma\u00efs, sirop de glucose, sucre, extrait de malt d'orge (orge, orge malt\u00e9), contient de l'huile de tournesol et/ou de palme, carbonate de calcium, \u00e9mulsifiant : l\u00e9cithines; sel, ar\u00f4mes naturels, fer, vitamines B3, B5, D, B6, B1, B2 et B9.",
+        "product_name": "C\u00e9r\u00e9ales Chocapic"
+    },
+    "33": null,
+    "34": null,
+    "35": null,
+    "36": null,
+    "37": null,
+    "38": null
 }
