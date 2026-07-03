@@ -6,12 +6,12 @@ Ce programme console a pour but de simuler une gestion des BIbliotheques classiq
 
 Il est strucure ainsi :
 ### book.py
-    Definition de la classe Livre (Book) de ses etats(attributs) et de ses actions (methodes)
+Definition de la classe Livre (Book) de ses etats(attributs) et de ses actions (methodes)
 ### library.py
-    Definition de la classe library (Biblitontheque)
+Definition de la classe library (Biblitontheque)
 
 ### main.py
-    Fichier principal a executer
+Fichier principal a executer
 
 ## Comment lancer
 utiliser la commande bash ou shell
@@ -26,11 +26,11 @@ Cette application fonctionne comme suit il suffit d'entrer le nom d'une ville da
 
 ### Description elle est strucree  comme suit:
 ### Le fichier index.html
-    Pour les blises et l'affichage du formulaire et des informatons meteorologiques
+Pour les blises et l'affichage du formulaire et des informatons meteorologiques
 ### Le fichier style.css
-    L'ajout de style pour une interface plus elegante
+L'ajout de style pour une interface plus elegante
 ### Le fichier script.js
-    Pour la recuperation en API des informations meteorologique d'une ville donnee
+Pour la recuperation en API des informations meteorologique d'une ville donnee
 ## Comment lancer
 Ouvrir le fichier `index.html` via le navigateur
 
@@ -39,14 +39,14 @@ Ce projet vise a evaluer le niveau de culture de l'utilisateru via 10 quiz puis 
 
 ## Structure
 
-### index.htnl
-    Squelette du projet avec l'interface
+### index.html
+Squelette du projet avec l'interface
 
 ### style.css
-    Fichier contenant le style pour la mise en page et la mise en forme du squette
+Fichier contenant le style pour la mise en page et la mise en forme du squette
 
 ## script.js
-    Le javascript contenant la logique de l'application tel que la definition des quizz l'utilisateur les evenements
+Le javascript contenant la logique de l'application tel que la definition des quizz l'utilisateur les evenements
 ## Comment lancer
 Ouvrir le fichier index.html dans le navigateur
 # 4- Csv analyzer en python via pandas
@@ -55,10 +55,10 @@ Ce projet vise a analyser (lire) un fichier csv et a effectuer des stats de base
 ## Structure
 
 ### main.py
-    Fichier python contenant les fonctionnalitees de base
+Fichier python contenant les fonctionnalitees de base
 
 ### sales.csv
-    Fichier contenant un exemple de csv pour une boutique avec les ventes par produit prix unitaire et quantite vendu
+Fichier contenant un exemple de csv pour une boutique avec les ventes par produit prix unitaire et quantite vendu
 
 ## Comment lancer
 installer la librairie pandas 
@@ -75,14 +75,14 @@ Ce projet vise a extraire les informations json via une api publique dans une fi
 ## Structure
 ## scraper/main.py
 Fichier principal python pour recuper les informations de l'API puis generer automatiquement le fichier `products.json`
-### index.htnl
-    Squelette du projet avec l'interface
+### index.html
+Squelette du projet avec l'interface
 
 ### style.css
-    Fichier contenant le style pour la mise en page et la mise en forme du squette
+Fichier contenant le style pour la mise en page et la mise en forme du squette
 
 ## script.js
-    Le javascript contenant la logique de l'application tel que la recuperation des informations du fichier json et leur affcihage sur le fichier html
+Le javascript contenant la logique de l'application tel que la recuperation des informations du fichier json et leur affcihage sur le fichier html
 ## Comment lancer
 Tout d'abord importer openfoodfacts pour ne pas avoir a ecrire l'url qui sera des lors obtenue automatiquement
 Installer
